@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.offers-wrapper {
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-field {
+    display: flex;
+    align-items: center;
+}
+
+.offer2-img {
+    display: inline;
+    width: 150%;
+    height: 150%;
+    margin-left: -25%;
+}
+
+
+.offer-1, .offer-2, .offer-3 {
+    background-color: #D1D0D0;
+    padding: 200px;
+    border-radius: 35px;
+    border: none;
+    margin-top: 100px;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+li, a, button {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #BCBCBC ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 15px;
+    z-index: 999; /* Ensure the header is on top of other elements */
+    opacity: 0.9;
+}
+
+main {
+    margin-top: 95px; /* Add margin-top to the main content to prevent it from being overlapped by the fixed header */
+}
+
+
+footer {
+    background-color: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 15px;
+    border-top: 1px solid #000;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #D6D1D1;
+}
+
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a {
+    color: black;
+}
+
+.nav-links li a:hover {
+    color: rgba(188, 41, 41, 1);
+}
+
+.nav-links li:hover {
+    transform: translateY(-4px);
+}
+
+.welcome-section {
+    position: relative;
+    padding: 200px;
+    padding-bottom: 310px;
+    background-image: url('background-div1.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.center-content {
+    text-align: center;
+}
+
+.signup-button {
+    padding: 9px 25px;
+    background-color: rgba(188, 41, 41, 1);
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.signup-button:hover {
+    background-color: rgba(188, 41, 41, 0.7);
+    transform: translateY(-5px);
+}
+
+.welcome, .moto {
+    font-family: Poppins, sans-serif;
+    margin: 10px 0;
+    color: #EDEDED;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+}
+
+.welcome:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.moto:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.signup-button-welcome {
+    margin: 10px 0;
+    padding: 9px 25px;
+    background-color: rgba(188, 41, 41, 1);
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.signup-button-welcome:hover{
+    background-color: rgba(188, 41, 41, 0.7);
+    transform: translateY(-5px);
+}
+
+.welcome{
+    font-size: 47px;
+}
+
+.about-section{
+    background-color: #737373;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sell-section {
+    margin-top: 100px;
+    background-color: rgba(188, 41, 41, 1);
+    padding: 100px 250px;
+    border-radius: 25px;
+    line-height: 75px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.staffInfo-section {
+    margin-top: 100px;
+    line-height: 35px;
+}
+
+.trainer-info {
+    margin-top: 100px;
+    background-color: rgba(188, 41, 41, 1);
+    padding: 90px 100px;
+    border-radius: 25px;
+    line-height: 75px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added to horizontally center the content */
+}
+
+
+.trainer-img {
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: auto; /* Modified to push the image to the right */
+    margin-right: 30px; /* Adjusted margin value to create space between image and text */
+}
+
+.trainerDescription-section {
+    margin-top: -75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Added to center align the text */
+}
+
+
+
+.about-header{
+    color: rgba(188, 41, 41, 1);
+    text-align: center;
+    margin-top: auto;
+    font-family: Poppins, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    margin-bottom: 65px;
+}
+
+.staff-info {
+    background-color: #D1D0D0;
+    padding: 200px;
+    border-radius: 35px;
+    border: none;
+    margin-top: 100px;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register-input {
+    margin-bottom: 15px;
+    height: 50px;
+    width: 300px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 15px;
+  }
+
+.register-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1085px;
+    background-color: rgba(188, 41, 41, 1);
+    padding: 90px 100px;
+    border-radius: 25px;
+    line-height: 75px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added to horizontally center the content */
+    flex-direction: column;
+}
+
+.register {
+    background-color: #737373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+  
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .welcome-section {
+        padding: 50px;
+    }
+
+    .signup-button-welcome {
+        margin: 20px 0;
+    }
+
+    .welcome {
+        font-size: 32px;
+    }
+}
