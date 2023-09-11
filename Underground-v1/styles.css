@@ -264,7 +264,10 @@ footer li {
     justify-content: center;
   }
   
-  .register-input {
+  #register-input-first-name,
+  #register-input-last-name,
+  #register-input-phone-number {
+    /* background-color: rgb(80, 80, 80); */
     margin-bottom: 15px;
     height: 50px;
     width: 300px;
@@ -272,6 +275,35 @@ footer li {
     border: none;
     border-radius: 15px;
   }
+  /* #info-form {
+    ;
+  } */
+
+  #form-button {
+    margin: 10px 0;
+    padding: 9px 25px;
+    background-color: rgb(80, 80, 80);
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgb(209, 209, 209); 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #form-button:hover {
+    opacity: 0.7;
+    transform: translateY(-5px);
+  }
+
+  #input-label1,
+  #input-label2,
+  #input-label3 {
+    font-size: 35px;
+    background-color: rgb(215, 215, 215);
+  }
+
+
 
 .register-section {
     margin-top: 150px;
